@@ -214,7 +214,7 @@ class Hero extends React.Component {
                                     Creative
                                 </Heading1>
                                 <Heading2>
-                                    Digital Agency
+                                    Digital Studio
                                 </Heading2>
                                 <Separator/>
                                 <Type>
