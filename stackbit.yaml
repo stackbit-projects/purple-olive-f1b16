@@ -1,0 +1,83 @@
+stackbitVersion: ~0.3.0
+ssgName: gatsby
+publishDir: public
+pagesDir: content
+models:
+  portfolio:
+    type: page
+    label: Portfolio
+    folder: portfolio
+    match: '**/*'
+    fields:
+      - type: number
+        name: id
+        label: Id
+        subtype: int
+      - type: image
+        name: image
+        label: Image
+      - type: string
+        name: title
+        label: Title
+      - type: string
+        name: category
+        label: Category
+      - type: string
+        name: link
+        label: Link
+  team:
+    type: page
+    label: Team
+    folder: team
+    match: '**/*'
+    fields:
+      - type: number
+        name: id
+        label: Id
+        subtype: int
+      - type: image
+        name: image
+        label: Image
+      - type: string
+        name: name
+        label: Name
+      - type: string
+        name: profession
+        label: Profession
+      - type: string
+        name: facebook
+        label: Facebook
+      - type: string
+        name: twitter
+        label: Twitter
+      - type: string
+        name: linkedin
+        label: Linkedin
+      - type: string
+        name: github
+        label: Github
+  testimonial:
+    type: page
+    label: Testimonial
+    folder: testimonials
+    match: '**/*'
+    fields:
+      - type: number
+        name: id
+        label: Id
+        subtype: int
+      - type: image
+        name: image
+        label: Image
+      - type: image
+        name: large
+        label: Large
+      - type: string
+        name: name
+        label: Name
+      - type: string
+        name: profession
+        label: Profession
+      - type: string
+        name: text
+        label: Text
